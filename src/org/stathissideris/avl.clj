@@ -22,6 +22,7 @@
      [left node right height]))
 
 (defn mktree
+  ([] (mknode nil))
   ([node] (mknode node))
   ([left node right]
      (mknode (if (sequential? left) (apply mktree left) (mktree left))

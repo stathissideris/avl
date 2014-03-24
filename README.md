@@ -1,6 +1,6 @@
 # avl
 
-A simple implementation of AVL binary search trees. This is not super
+A simple implementation of AVL binary search trees in Clojure. This is not super
 optimised -- the main use case is to allow different comparators to be
 used for inserting and searching. Deletion not
 implemented. Documentation pending.
